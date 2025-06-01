@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="aqual">#00000000</item>
+    <item type="drawable" name="blue">#ff6699ff</item>
+    <item type="drawable" name="dark">#ff000000</item>
+    <item type="drawable" name="dark2">#ffdddddd</item>
+    <item type="drawable" name="green">#ff00ff00</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="orange">#ffff8800</item>
+    <item type="drawable" name="red">#ffff0000</item>
+    <item type="drawable" name="white">#ffffffff</item>
+</resources>
