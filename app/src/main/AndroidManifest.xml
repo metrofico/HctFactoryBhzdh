@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" android:sharedUserId="android.uid.system" package="com.hzbhd.canbus" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission..ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@drawable/ic_launcher" android:label="@string/canbus_app_name" android:name="com.hzbhd.canbus.comm.MyApplication" android:networkSecurityConfig="@xml/network_security_config" android:supportsRtl="true" android:theme="@style/BaseTheme">
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/_451_ampl_icon" android:label="@string/_451_car_app_name" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.car._324.Id324AuxVideoActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__d4__pd3_bottom_ic_set1_n" android:label="@string/accessory_control" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._466.activity.AccessoryControlActivity466" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__d4__car_settings1" android:label="@string/motocycle_settings" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._466.activity.SettingsGroup0x00Activity466" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__d4__bottom_ic_yb_n" android:label="@string/_466_gauges" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._466.activity.GaugesActivity466" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__d4__bottom_ic_carinfo_n" android:label="@string/_466_drive_data" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._466.activity.DriveActivity466" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleInstance" android:name="com.hzbhd.canbus._466.activity.EqActivity466" android:resizeableActivity="false"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/_439_panel_ico" android:label="@string/_439_panel_app" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._467.activity.ID439PanelActivity" android:resizeableActivity="false"/>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__439__car_settings_icon" android:label="@string/canbus_app_name" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.car_cus._467.activity.ID439MainActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.car_cus._467.activity.ID439SettingActivity"/>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.car_cus._467.activity.ID439DriveDataActivity"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/_439_panel_ico" android:label="@string/_439_panel_app" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._439.activity.ID439PanelActivity" android:resizeableActivity="false"/>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__439__car_settings_icon" android:label="@string/canbus_app_name" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.car_cus._439.activity.ID439MainActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.car_cus._439.activity.ID439SettingActivity"/>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.car_cus._439.activity.ID439DriveDataActivity"/>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__pd1_car_body_icon" android:label="@string/_462_car_body" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._462.activity.CarBodyActivityD1" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__pe1_car_body_icon" android:label="@string/_462_car_body" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._471.activity.CarBodyActivityE1" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__pa3__car_body_icon" android:label="@string/_460_car_setting" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._473.activity.CarBodyActivityA3" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__d1__main_avm" android:label="@string/_462_car_avm" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._462.activity.AvmActivityD1" android:resizeableActivity="false" android:theme="@style/TransparentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__pn6_main_car_n" android:label="@string/_460_car_setting" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._460.activity.SettingActivity460" android:resizeableActivity="false" android:theme="@style/TransparentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:icon="@drawable/__pn6_main_air_n" android:label="@string/_460_air" android:launchMode="singleInstance" android:name="com.hzbhd.canbus._460.activity.AirActivity460" android:resizeableActivity="false" android:theme="@style/TransparentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/_451_ampl_icon" android:label="@string/_451_car_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._451.activity.lexus.OriginalMediaActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/_451_ampl_icon" android:label="@string/_451_car_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.media.aux2.activity.Aux2Activity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.car_cus._446.activity.WmTireInfoActivity"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/__pw6_home_logo_n" android:label="@string/canbus_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._446.activity.WmCarSettingActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.car_cus._283.activity.DyReverseSettingActivity"/>
+        <service android:enabled="true" android:exported="true" android:name="com.hzbhd.canbus.service.TestCanBusService"/>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.activity.CanBusDiagnosisActivity"/>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.activity.TestCanBusActivity"/>
+        <meta-data android:name="hzbhdApp" android:value="true"/>
+        <activity android:exported="false" android:name="com.hzbhd.canbus.activity.FrontCameraSettingActivity"/>
+        <activity android:exported="true" android:label="@string/canbus_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.MainActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/select_cantype" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.activity.SelectCanTypeActivity" android:resizeableActivity="false"/>
+        <activity android:exported="true" android:label="@string/select_id" android:name="com.hzbhd.canbus.activity.SelectIdActivity"/>
+        <activity android:exported="true" android:label="@string/function_test" android:name="com.hzbhd.canbus.activity.TestActivity"/>
+        <activity android:enabled="false" android:exported="true" android:label="@string/on_start" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.activity.OnStarActivity"/>
+        <activity android:exported="true" android:label="@string/air_setting" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.activity.AirActivity"/>
+        <activity android:exported="true" android:label="@string/warning_msg" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.WarningActivity"/>
+        <activity android:enabled="false" android:exported="true" android:label="@string/original_car_device" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.activity.OriginalCarDeviceActivity"/>
+        <activity android:enabled="true" android:exported="true" android:label="@string/car_setting" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.SettingActivity"/>
+        <activity android:exported="true" android:label="@string/drive_data" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.DriveDataActivity"/>
+        <activity android:exported="true" android:label="@string/hybrid_view" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car._206.MqbHybirdActivity"/>
+        <activity android:exported="true" android:label="@string/tire_data" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.TirePressureActivity"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.UPDProgressActivity"/>
+        <activity android:exported="true" android:label="@string/hybird" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.HybirdActivity"/>
+        <activity android:exported="true" android:label="@string/amplifier_setting" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.AmplifierActivity"/>
+        <activity android:enabled="false" android:exported="true" android:label="@string/sync" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.activity.SyncActivity"/>
+        <activity android:exported="true" android:label="@string/panel_key" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.PanelKeyActivity"/>
+        <activity android:exported="true" android:label="@string/_283_smart_power" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.SmartPowerActivity" android:resizeableActivity="false" android:theme="@style/BaseTheme"/>
+        <activity android:exported="true" android:label="@string/general_setting" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.FactoryActivity"/>
+        <activity android:exported="true" android:label="@string/swc" android:launchMode="singleTask" android:name="com.hzbhd.canbus.activity.SwcActivity"/>
+        <service android:exported="true" android:name="com.hzbhd.canbus.CanbusMsgService">
+            <intent-filter>
+                <action android:name="com.hzbhd.intent.action.canbus"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.hzbhd.canbus.park.BackCameraUiService"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/ic_launcher" android:label="@string/canbus_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._273.MainActivity" android:resizeableActivity="false" android:theme="@style/_273_290_BaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/ic_launcher_diagnosis" android:label="@string/geely_e6_diagnosis_title" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.car_cus._277.activity.VehicleDiagnosisActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/ic_launcher_monitoring" android:label="@string/geely_e6_monitor_title" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.car_cus._277.activity.VehicleMonitorActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/ic_launcher_energy" android:label="@string/geely_e6_energy_title" android:launchMode="singleInstance" android:name="com.hzbhd.canbus.car_cus._277.activity.EnergyFeedbackActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/dy_canbus_ico" android:label="@string/canbus_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.MainActivity" android:resizeableActivity="false" android:theme="@style/_283_291_BaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/air_setting" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.activity.AirActivity" android:theme="@style/_283_291_BaseTheme"/>
+        <activity android:exported="true" android:label="@string/settings" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.activity.MainSettingActivity"/>
+        <activity android:exported="true" android:label="@string/settings" android:launchMode="singleTask" android:name="com.hzes unabhd.canbus.car_cus._283.activity.MainSettingPersonalActivity"/>
+        <activity android:exported="true" android:label="@string/settings" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.activity.AirSettingActivity"/>
+        <activity android:exported="true" android:label="@string/air_setting" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.activity.AirCleanActivity"/>
+        <activity android:exported="true" android:label="@string/_283_smart_power" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.smart.SmartPowerActivity" android:theme="@style/_283_291_BaseTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.choosecan.A6ChooseCanTypeActivity" android:theme="@style/_283_291_BaseTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._283.activity.MeterActivity" android:theme="@style/_283_291_BaseTheme"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/ic_launcher" android:label="@string/canbus_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._290.MainActivity" android:resizeableActivity="false" android:theme="@style/_273_290_BaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/ic_launcher" android:label="@string/canbus_app_name" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._291.MainActivity" android:resizeableActivity="false" android:theme="@style/_283_291_BaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/settings" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._291.MainSettingActivity"/>
+        <activity android:exported="true" android:label="@string/air_setting" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._291.AirActivity" android:theme="@style/_283_291_BaseTheme"/>
+        <activity android:exported="true" android:label="@string/_283_smart_power" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._299.smart.SmartPowerActivity" android:resizeableActivity="false" android:theme="@style/_299_BaseTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._299.instrument.InstrumentActivity" android:resizeableActivity="false" android:theme="@style/_299_BaseTheme"/>
+        <activity android:exported="true" android:label="@string/air_setting" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._304.activity.AirActivity" android:resizeableActivity="false"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/ic_launcher" android:label="@string/_304_main_vehicle_management" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._304.activity.MainActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/_436_app_dvr_icon" android:label="@string/_436_DVR_NAME" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._436.activity.DvrActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/__448_dvr_icon" android:label="@string/_436_DVR_NAME" android:launchMode="singleTask" android:name="com.hzbhd.canbus.car_cus._448.activity.DvrActivity" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.hzbhd.canbus.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+    </application>
+</manifest>

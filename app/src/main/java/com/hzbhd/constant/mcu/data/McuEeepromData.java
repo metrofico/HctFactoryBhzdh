@@ -1,0 +1,67 @@
+package com.hzbhd.constant.mcu.data;
+
+public class McuEeepromData {
+   public static enum Key {
+      private static final Key[] $VALUES = $values();
+      EEPROM_ADDR_ACC_OFF_DELAY_DETECT((byte)0, (byte)38),
+      EEPROM_ADDR_ACC_OFF_HOLD((byte)0, (byte)36),
+      EEPROM_ADD_ACCOFF_DELAY((byte)0, (byte)8),
+      EEPROM_ADD_BT_AUTHORIZE((byte)0, (byte)22),
+      EEPROM_ADD_CAN_BAUD_RATE((byte)0, (byte)24),
+      EEPROM_ADD_CAN_MOUDLE((byte)0, (byte)26),
+      EEPROM_ADD_CAN_TRANSMITE_TYPE((byte)0, (byte)27),
+      EEPROM_ADD_CAR_TYPE((byte)0, (byte)0),
+      EEPROM_ADD_COLORLED_BLUE((byte)0, (byte)21),
+      EEPROM_ADD_COLORLED_GREEN((byte)0, (byte)20),
+      EEPROM_ADD_COLORLED_RED((byte)0, (byte)19),
+      EEPROM_ADD_DEBUG_ERROR((byte)0, (byte)35),
+      EEPROM_ADD_DIMMER_DAY((byte)0, (byte)2),
+      EEPROM_ADD_DIMMER_MODE((byte)0, (byte)37),
+      EEPROM_ADD_DIMMER_NIGHT((byte)0, (byte)28),
+      EEPROM_ADD_ENCODER_STATE((byte)0, (byte)1),
+      EEPROM_ADD_FACTORY_SETTING0((byte)0, (byte)9),
+      EEPROM_ADD_FACTORY_SETTING1((byte)0, (byte)10),
+      EEPROM_ADD_FACTORY_SETTING2((byte)0, (byte)11),
+      EEPROM_ADD_FACTORY_SETTING3((byte)0, (byte)12),
+      EEPROM_ADD_FACTORY_SETTING4((byte)0, (byte)13),
+      EEPROM_ADD_FACTORY_SETTING5((byte)0, (byte)14),
+      EEPROM_ADD_FACTORY_SETTING6((byte)0, (byte)15),
+      EEPROM_ADD_FACTORY_SETTING7((byte)0, (byte)16),
+      EEPROM_ADD_FACTORY_SETTING8((byte)0, (byte)17),
+      EEPROM_ADD_FACTORY_SETTING9((byte)0, (byte)18),
+      EEPROM_ADD_GENERAL_SETTING1((byte)0, (byte)29),
+      EEPROM_ADD_GENERAL_SETTING1v1((byte)0, (byte)30),
+      EEPROM_ADD_LED_STATE((byte)0, (byte)25),
+      EEPROM_ADD_LEVEL_ADDR0((byte)0, (byte)3),
+      EEPROM_ADD_LEVEL_ADDR1((byte)0, (byte)4),
+      EEPROM_ADD_LEVEL_ADDR2((byte)0, (byte)5),
+      EEPROM_ADD_LEVEL_ADDR3((byte)0, (byte)6),
+      EEPROM_ADD_LEVEL_ADDR4((byte)0, (byte)7),
+      EEPROM_ADD_LOGO_SWITCH_ON_POWER((byte)0, (byte)34),
+      EEPROM_ADD_LOGO_SWITCH_ON_TAG((byte)0, (byte)32),
+      EEPROM_ADD_LOGO_SWITCH_ON_TOTAL((byte)0, (byte)33),
+      EEPROM_ADD_TFT_VCOM((byte)0, (byte)23),
+      EEPROM_ADD_VIDEO_SETTING((byte)0, (byte)31);
+
+      private byte arg1;
+      private byte arg2;
+
+      // $FF: synthetic method
+      private static Key[] $values() {
+         return new Key[]{EEPROM_ADD_CAR_TYPE, EEPROM_ADD_ENCODER_STATE, EEPROM_ADD_DIMMER_DAY, EEPROM_ADD_LEVEL_ADDR0, EEPROM_ADD_LEVEL_ADDR1, EEPROM_ADD_LEVEL_ADDR2, EEPROM_ADD_LEVEL_ADDR3, EEPROM_ADD_LEVEL_ADDR4, EEPROM_ADD_ACCOFF_DELAY, EEPROM_ADD_FACTORY_SETTING0, EEPROM_ADD_FACTORY_SETTING1, EEPROM_ADD_FACTORY_SETTING2, EEPROM_ADD_FACTORY_SETTING3, EEPROM_ADD_FACTORY_SETTING4, EEPROM_ADD_FACTORY_SETTING5, EEPROM_ADD_FACTORY_SETTING6, EEPROM_ADD_FACTORY_SETTING7, EEPROM_ADD_FACTORY_SETTING8, EEPROM_ADD_FACTORY_SETTING9, EEPROM_ADD_COLORLED_RED, EEPROM_ADD_COLORLED_GREEN, EEPROM_ADD_COLORLED_BLUE, EEPROM_ADD_BT_AUTHORIZE, EEPROM_ADD_TFT_VCOM, EEPROM_ADD_CAN_BAUD_RATE, EEPROM_ADD_LED_STATE, EEPROM_ADD_CAN_MOUDLE, EEPROM_ADD_CAN_TRANSMITE_TYPE, EEPROM_ADD_DIMMER_NIGHT, EEPROM_ADD_GENERAL_SETTING1, EEPROM_ADD_GENERAL_SETTING1v1, EEPROM_ADD_VIDEO_SETTING, EEPROM_ADD_LOGO_SWITCH_ON_TAG, EEPROM_ADD_LOGO_SWITCH_ON_TOTAL, EEPROM_ADD_LOGO_SWITCH_ON_POWER, EEPROM_ADD_DEBUG_ERROR, EEPROM_ADDR_ACC_OFF_HOLD, EEPROM_ADD_DIMMER_MODE, EEPROM_ADDR_ACC_OFF_DELAY_DETECT};
+      }
+
+      private Key(byte var3, byte var4) {
+         this.arg1 = var3;
+         this.arg2 = var4;
+      }
+
+      public byte getArg1() {
+         return this.arg1;
+      }
+
+      public byte getArg2() {
+         return this.arg2;
+      }
+   }
+}
